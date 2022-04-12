@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15268FDC274BB8A76E2C702E /* libPods-Live to VOD UIKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F7A822A6EF5D0B1D0258B0 /* libPods-Live to VOD UIKit.a */; };
+		4B23EF0027BBBA950093CC0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B23EEFF27BBBA950093CC0D /* AppDelegate.swift */; };
+		4B23EF0227BBBA950093CC0D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B23EF0127BBBA950093CC0D /* SceneDelegate.swift */; };
+		4B23EF0427BBBA950093CC0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B23EF0327BBBA950093CC0D /* ViewController.swift */; };
+		4B23EF0727BBBA950093CC0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B23EF0527BBBA950093CC0D /* Main.storyboard */; };
+		4B23EF0927BBBA950093CC0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B23EF0827BBBA950093CC0D /* Assets.xcassets */; };
+		4B23EF0C27BBBA950093CC0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B23EF0A27BBBA950093CC0D /* LaunchScreen.storyboard */; };
+		4B23EF1727BBBA950093CC0D /* Live_to_VOD_UIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B23EF1627BBBA950093CC0D /* Live_to_VOD_UIKitTests.swift */; };
+		4B23EF2127BBBA950093CC0D /* Live_to_VOD_UIKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B23EF2027BBBA950093CC0D /* Live_to_VOD_UIKitUITests.swift */; };
+		4B23EF2327BBBA950093CC0D /* Live_to_VOD_UIKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B23EF2227BBBA950093CC0D /* Live_to_VOD_UIKitUITestsLaunchTests.swift */; };
+		4BD3B4C527EDC1F400288280 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD3B4C427EDC1F400288280 /* Networking.swift */; };
+		4BD3B4C827EDC54F00288280 /* StreamMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD3B4C727EDC54F00288280 /* StreamMetadata.swift */; };
+		4BEE800127C6411F00BAFCE5 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEE800027C6411F00BAFCE5 /* GradientView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B23EF1327BBBA950093CC0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B23EEF427BBBA950093CC0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B23EEFB27BBBA950093CC0D;
+			remoteInfo = "Live to VOD UIKit";
+		};
+		4B23EF1D27BBBA950093CC0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B23EEF427BBBA950093CC0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B23EEFB27BBBA950093CC0D;
+			remoteInfo = "Live to VOD UIKit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B23EEFC27BBBA950093CC0D /* Live to VOD UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Live to VOD UIKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B23EEFF27BBBA950093CC0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B23EF0127BBBA950093CC0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4B23EF0327BBBA950093CC0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B23EF0627BBBA950093CC0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B23EF0827BBBA950093CC0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B23EF0B27BBBA950093CC0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B23EF0D27BBBA950093CC0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B23EF1227BBBA950093CC0D /* Live to VOD UIKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Live to VOD UIKitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B23EF1627BBBA950093CC0D /* Live_to_VOD_UIKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Live_to_VOD_UIKitTests.swift; sourceTree = "<group>"; };
+		4B23EF1C27BBBA950093CC0D /* Live to VOD UIKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Live to VOD UIKitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B23EF2027BBBA950093CC0D /* Live_to_VOD_UIKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Live_to_VOD_UIKitUITests.swift; sourceTree = "<group>"; };
+		4B23EF2227BBBA950093CC0D /* Live_to_VOD_UIKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Live_to_VOD_UIKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4BD3B4C427EDC1F400288280 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		4BD3B4C727EDC54F00288280 /* StreamMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamMetadata.swift; sourceTree = "<group>"; };
+		4BEE800027C6411F00BAFCE5 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		B36D1074AA1878F3E8401168 /* Pods-Live to VOD UIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Live to VOD UIKit.release.xcconfig"; path = "Target Support Files/Pods-Live to VOD UIKit/Pods-Live to VOD UIKit.release.xcconfig"; sourceTree = "<group>"; };
+		D7F7A822A6EF5D0B1D0258B0 /* libPods-Live to VOD UIKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Live to VOD UIKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB49E37A08220D35DB2D0A96 /* Pods-Live to VOD UIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Live to VOD UIKit.debug.xcconfig"; path = "Target Support Files/Pods-Live to VOD UIKit/Pods-Live to VOD UIKit.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B23EEF927BBBA950093CC0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15268FDC274BB8A76E2C702E /* libPods-Live to VOD UIKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B23EF0F27BBBA950093CC0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B23EF1927BBBA950093CC0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E7D03143904EE46FBE89DBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7F7A822A6EF5D0B1D0258B0 /* libPods-Live to VOD UIKit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B23EEF327BBBA950093CC0D = {
+			isa = PBXGroup;
+			children = (
+				4B23EEFE27BBBA950093CC0D /* Live to VOD UIKit */,
+				4B23EF1527BBBA950093CC0D /* Live to VOD UIKitTests */,
+				4B23EF1F27BBBA950093CC0D /* Live to VOD UIKitUITests */,
+				4B23EEFD27BBBA950093CC0D /* Products */,
+				AB5D67F6301FB0DEE2666060 /* Pods */,
+				1E7D03143904EE46FBE89DBB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4B23EEFD27BBBA950093CC0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B23EEFC27BBBA950093CC0D /* Live to VOD UIKit.app */,
+				4B23EF1227BBBA950093CC0D /* Live to VOD UIKitTests.xctest */,
+				4B23EF1C27BBBA950093CC0D /* Live to VOD UIKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B23EEFE27BBBA950093CC0D /* Live to VOD UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				4B23EEFF27BBBA950093CC0D /* AppDelegate.swift */,
+				4B23EF0127BBBA950093CC0D /* SceneDelegate.swift */,
+				4BD3B4C627EDC53700288280 /* Models */,
+				4BD3B4C927EDC86A00288280 /* Views */,
+				4B73A07227F2EAC200F55CEE /* Controllers */,
+				4B23EF0527BBBA950093CC0D /* Main.storyboard */,
+				4B23EF0827BBBA950093CC0D /* Assets.xcassets */,
+				4B23EF0A27BBBA950093CC0D /* LaunchScreen.storyboard */,
+				4B23EF0D27BBBA950093CC0D /* Info.plist */,
+			);
+			path = "Live to VOD UIKit";
+			sourceTree = "<group>";
+		};
+		4B23EF1527BBBA950093CC0D /* Live to VOD UIKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B23EF1627BBBA950093CC0D /* Live_to_VOD_UIKitTests.swift */,
+			);
+			path = "Live to VOD UIKitTests";
+			sourceTree = "<group>";
+		};
+		4B23EF1F27BBBA950093CC0D /* Live to VOD UIKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B23EF2027BBBA950093CC0D /* Live_to_VOD_UIKitUITests.swift */,
+				4B23EF2227BBBA950093CC0D /* Live_to_VOD_UIKitUITestsLaunchTests.swift */,
+			);
+			path = "Live to VOD UIKitUITests";
+			sourceTree = "<group>";
+		};
+		4B73A07227F2EAC200F55CEE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4B23EF0327BBBA950093CC0D /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4BD3B4C627EDC53700288280 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4BD3B4C427EDC1F400288280 /* Networking.swift */,
+				4BD3B4C727EDC54F00288280 /* StreamMetadata.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4BD3B4C927EDC86A00288280 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4BEE800027C6411F00BAFCE5 /* GradientView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AB5D67F6301FB0DEE2666060 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB49E37A08220D35DB2D0A96 /* Pods-Live to VOD UIKit.debug.xcconfig */,
+				B36D1074AA1878F3E8401168 /* Pods-Live to VOD UIKit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B23EEFB27BBBA950093CC0D /* Live to VOD UIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B23EF2627BBBA950093CC0D /* Build configuration list for PBXNativeTarget "Live to VOD UIKit" */;
+			buildPhases = (
+				BC47504F4461DF47CA596BEF /* [CP] Check Pods Manifest.lock */,
+				4B23EEF827BBBA950093CC0D /* Sources */,
+				4B23EEF927BBBA950093CC0D /* Frameworks */,
+				4B23EEFA27BBBA950093CC0D /* Resources */,
+				6B88B44F8377CF2134E1B11A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Live to VOD UIKit";
+			productName = "Live to VOD UIKit";
+			productReference = 4B23EEFC27BBBA950093CC0D /* Live to VOD UIKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B23EF1127BBBA950093CC0D /* Live to VOD UIKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B23EF2927BBBA950093CC0D /* Build configuration list for PBXNativeTarget "Live to VOD UIKitTests" */;
+			buildPhases = (
+				4B23EF0E27BBBA950093CC0D /* Sources */,
+				4B23EF0F27BBBA950093CC0D /* Frameworks */,
+				4B23EF1027BBBA950093CC0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B23EF1427BBBA950093CC0D /* PBXTargetDependency */,
+			);
+			name = "Live to VOD UIKitTests";
+			productName = "Live to VOD UIKitTests";
+			productReference = 4B23EF1227BBBA950093CC0D /* Live to VOD UIKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B23EF1B27BBBA950093CC0D /* Live to VOD UIKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B23EF2C27BBBA950093CC0D /* Build configuration list for PBXNativeTarget "Live to VOD UIKitUITests" */;
+			buildPhases = (
+				4B23EF1827BBBA950093CC0D /* Sources */,
+				4B23EF1927BBBA950093CC0D /* Frameworks */,
+				4B23EF1A27BBBA950093CC0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B23EF1E27BBBA950093CC0D /* PBXTargetDependency */,
+			);
+			name = "Live to VOD UIKitUITests";
+			productName = "Live to VOD UIKitUITests";
+			productReference = 4B23EF1C27BBBA950093CC0D /* Live to VOD UIKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B23EEF427BBBA950093CC0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					4B23EEFB27BBBA950093CC0D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					4B23EF1127BBBA950093CC0D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 4B23EEFB27BBBA950093CC0D;
+					};
+					4B23EF1B27BBBA950093CC0D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 4B23EEFB27BBBA950093CC0D;
+					};
+				};
+			};
+			buildConfigurationList = 4B23EEF727BBBA950093CC0D /* Build configuration list for PBXProject "Live to VOD UIKit" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B23EEF327BBBA950093CC0D;
+			productRefGroup = 4B23EEFD27BBBA950093CC0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B23EEFB27BBBA950093CC0D /* Live to VOD UIKit */,
+				4B23EF1127BBBA950093CC0D /* Live to VOD UIKitTests */,
+				4B23EF1B27BBBA950093CC0D /* Live to VOD UIKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B23EEFA27BBBA950093CC0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B23EF0C27BBBA950093CC0D /* LaunchScreen.storyboard in Resources */,
+				4B23EF0927BBBA950093CC0D /* Assets.xcassets in Resources */,
+				4B23EF0727BBBA950093CC0D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B23EF1027BBBA950093CC0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B23EF1A27BBBA950093CC0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B88B44F8377CF2134E1B11A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Live to VOD UIKit/Pods-Live to VOD UIKit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Live to VOD UIKit/Pods-Live to VOD UIKit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Live to VOD UIKit/Pods-Live to VOD UIKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC47504F4461DF47CA596BEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Live to VOD UIKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B23EEF827BBBA950093CC0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B23EF0427BBBA950093CC0D /* ViewController.swift in Sources */,
+				4BD3B4C527EDC1F400288280 /* Networking.swift in Sources */,
+				4B23EF0027BBBA950093CC0D /* AppDelegate.swift in Sources */,
+				4BEE800127C6411F00BAFCE5 /* GradientView.swift in Sources */,
+				4BD3B4C827EDC54F00288280 /* StreamMetadata.swift in Sources */,
+				4B23EF0227BBBA950093CC0D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B23EF0E27BBBA950093CC0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B23EF1727BBBA950093CC0D /* Live_to_VOD_UIKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B23EF1827BBBA950093CC0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B23EF2327BBBA950093CC0D /* Live_to_VOD_UIKitUITestsLaunchTests.swift in Sources */,
+				4B23EF2127BBBA950093CC0D /* Live_to_VOD_UIKitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B23EF1427BBBA950093CC0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B23EEFB27BBBA950093CC0D /* Live to VOD UIKit */;
+			targetProxy = 4B23EF1327BBBA950093CC0D /* PBXContainerItemProxy */;
+		};
+		4B23EF1E27BBBA950093CC0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B23EEFB27BBBA950093CC0D /* Live to VOD UIKit */;
+			targetProxy = 4B23EF1D27BBBA950093CC0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B23EF0527BBBA950093CC0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B23EF0627BBBA950093CC0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B23EF0A27BBBA950093CC0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B23EF0B27BBBA950093CC0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B23EF2427BBBA950093CC0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B23EF2527BBBA950093CC0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B23EF2727BBBA950093CC0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB49E37A08220D35DB2D0A96 /* Pods-Live to VOD UIKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Live to VOD UIKit/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DVR Demo";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amazon.ivs.liveToVOD.UIKit.Live-to-VOD-UIKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B23EF2827BBBA950093CC0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B36D1074AA1878F3E8401168 /* Pods-Live to VOD UIKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Live to VOD UIKit/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DVR Demo";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amazon.ivs.liveToVOD.UIKit.Live-to-VOD-UIKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4B23EF2A27BBBA950093CC0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amazon.ivs.liveToVOD.UIKit.Live-to-VOD-UIKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Live to VOD UIKit.app/Live to VOD UIKit";
+			};
+			name = Debug;
+		};
+		4B23EF2B27BBBA950093CC0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amazon.ivs.liveToVOD.UIKit.Live-to-VOD-UIKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Live to VOD UIKit.app/Live to VOD UIKit";
+			};
+			name = Release;
+		};
+		4B23EF2D27BBBA950093CC0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amazon.ivs.liveToVOD.UIKit.Live-to-VOD-UIKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Live to VOD UIKit";
+			};
+			name = Debug;
+		};
+		4B23EF2E27BBBA950093CC0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amazon.ivs.liveToVOD.UIKit.Live-to-VOD-UIKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Live to VOD UIKit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B23EEF727BBBA950093CC0D /* Build configuration list for PBXProject "Live to VOD UIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B23EF2427BBBA950093CC0D /* Debug */,
+				4B23EF2527BBBA950093CC0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B23EF2627BBBA950093CC0D /* Build configuration list for PBXNativeTarget "Live to VOD UIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B23EF2727BBBA950093CC0D /* Debug */,
+				4B23EF2827BBBA950093CC0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B23EF2927BBBA950093CC0D /* Build configuration list for PBXNativeTarget "Live to VOD UIKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B23EF2A27BBBA950093CC0D /* Debug */,
+				4B23EF2B27BBBA950093CC0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B23EF2C27BBBA950093CC0D /* Build configuration list for PBXNativeTarget "Live to VOD UIKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B23EF2D27BBBA950093CC0D /* Debug */,
+				4B23EF2E27BBBA950093CC0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B23EEF427BBBA950093CC0D /* Project object */;
+}
