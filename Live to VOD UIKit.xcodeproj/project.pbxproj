@@ -17,6 +17,7 @@
 		4B23EF1727BBBA950093CC0D /* Live_to_VOD_UIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B23EF1627BBBA950093CC0D /* Live_to_VOD_UIKitTests.swift */; };
 		4B23EF2127BBBA950093CC0D /* Live_to_VOD_UIKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B23EF2027BBBA950093CC0D /* Live_to_VOD_UIKitUITests.swift */; };
 		4B23EF2327BBBA950093CC0D /* Live_to_VOD_UIKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B23EF2227BBBA950093CC0D /* Live_to_VOD_UIKitUITestsLaunchTests.swift */; };
+		4BCEE8F9280FEB8100E2D4E6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCEE8F8280FEB8100E2D4E6 /* Constants.swift */; };
 		4BD3B4C527EDC1F400288280 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD3B4C427EDC1F400288280 /* Networking.swift */; };
 		4BD3B4C827EDC54F00288280 /* StreamMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD3B4C727EDC54F00288280 /* StreamMetadata.swift */; };
 		4BEE800127C6411F00BAFCE5 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEE800027C6411F00BAFCE5 /* GradientView.swift */; };
@@ -53,6 +54,7 @@
 		4B23EF1C27BBBA950093CC0D /* Live to VOD UIKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Live to VOD UIKitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B23EF2027BBBA950093CC0D /* Live_to_VOD_UIKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Live_to_VOD_UIKitUITests.swift; sourceTree = "<group>"; };
 		4B23EF2227BBBA950093CC0D /* Live_to_VOD_UIKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Live_to_VOD_UIKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4BCEE8F8280FEB8100E2D4E6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4BD3B4C427EDC1F400288280 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		4BD3B4C727EDC54F00288280 /* StreamMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamMetadata.swift; sourceTree = "<group>"; };
 		4BEE800027C6411F00BAFCE5 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 			children = (
 				4B23EEFF27BBBA950093CC0D /* AppDelegate.swift */,
 				4B23EF0127BBBA950093CC0D /* SceneDelegate.swift */,
+				4BCEE8F8280FEB8100E2D4E6 /* Constants.swift */,
 				4BD3B4C627EDC53700288280 /* Models */,
 				4BD3B4C927EDC86A00288280 /* Views */,
 				4B73A07227F2EAC200F55CEE /* Controllers */,
@@ -363,6 +366,7 @@
 				4BD3B4C527EDC1F400288280 /* Networking.swift in Sources */,
 				4B23EF0027BBBA950093CC0D /* AppDelegate.swift in Sources */,
 				4BEE800127C6411F00BAFCE5 /* GradientView.swift in Sources */,
+				4BCEE8F9280FEB8100E2D4E6 /* Constants.swift in Sources */,
 				4BD3B4C827EDC54F00288280 /* StreamMetadata.swift in Sources */,
 				4B23EF0227BBBA950093CC0D /* SceneDelegate.swift in Sources */,
 			);

@@ -10,9 +10,6 @@ import Combine
 
 class Networking {
     static let shared = Networking()
-
-    private let distributionDomainName = "https://d328da4i6b8le0.cloudfront.net"
-    private let streamMetadataFileName = "recording-started-latest.json"
     private let decoder = JSONDecoder()
     private var cancellables = Set<AnyCancellable>()
     private var lastFethedStreamMetadata: StreamMetadata?
@@ -21,11 +18,11 @@ class Networking {
         return lastFethedStreamMetadata?.livePlaybackUrl ?? ""
     }
     var vodUrl: String {
-        return "\(distributionDomainName)/\(lastFethedStreamMetadata?.masterKey ?? "")"
+        return "\(Constants.distributionDomainName)/\(lastFethedStreamMetadata?.masterKey ?? "")"
     }
 
     func getStreamMetadata(completion: @escaping (Bool) -> Void) {
-        guard let url = URL(string: "\(distributionDomainName)/\(streamMetadataFileName)") else {
+        guard let url = URL(string: "\(Constants.distributionDomainName)/\(Constants.streamMetadataFileName)") else {
             print("❌ Server url not set")
             return
         }
