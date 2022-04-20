@@ -1,20 +1,36 @@
-# Amazon IVS Live to Vod (DVR) Proof of Concept
+# Amazon IVS Live to VOD (DVR) iOS demo
 
-Live to VOD (DVR) proof-of-concept using Amazon IVS and the auto-record-to-s3 feature.
+This iOS demo application is intended as an educational tool for demonstrating how you can implement a Live to VOD (DVR) experience using [Amazon IVS](https://aws.amazon.com/ivs/) and the auto-record-to-s3 feature using [Amazon S3](https://aws.amazon.com/s3/).
 
-At a high level, POC allows a viewer to seek back in time during a live stream and view recorded content from that stream. Viewers also are able to jump back to the live stream and start watching content that is live.
+At a high level, it allows a viewer to seek back in time during a live stream and view recorded content from that stream. Viewers are also able to jump back to the live stream and resume watching content that is live.
 
 ## Setup
 
-1. Clone the repository to your local machine.
-2. Ensure you are using a supported version of Ruby, as [the version included with macOS is deprecated](https://developer.apple.com/documentation/macos-release-notes/macos-catalina-10_15-release-notes#Scripting-Language-Runtimes). This repository is tested with the version in [`.ruby-version`](./.ruby-version.md), which can be used automatically with [rbenv](https://github.com/rbenv/rbenv#installation).
-3. Install the SDK dependency using CocoaPods. This can be done by running the following commands from the repository folder:
-   * `bundle install`
-   * `bundle exec pod install --repo-update`
-   * For more information about these commands, see [Bundler](https://bundler.io/) and [CocoaPods](https://guides.cocoapods.org/using/getting-started.html).
-3. Open Live-to-VOD.xcworkspace.
-4. Set `distributionDomainName` constant (can be found in `Constants.swift` file)
-5. You can now build and run the projects in the simulator.
+### 1. Using your own stream (optional)
+
+In order to use your own stream with this demo you will need to deploy a backend solution on your AWS account. To do so, clone [amazon-ivs-dvr-web-demo](https://github.com/aws-samples/amazon-ivs-dvr-web-demo) and follow the deployment instructions available in the README.
+
+Note that this solution will:
+
+- Create an Amazon IVS channel
+- Set up auto-record-to-S3 for that channel
+- Create Lambda and Lambda@Edge resources to process VOD content
+- Create a CloudFront distribution to serve the VOD content
+
+Once deployment is done the CDK will output `distributionDomainName` that you'll need on the following step to run the demo
+
+### 2. Run demo
+
+- Clone this repository to your local machine.
+- Ensure you are using a supported version of Ruby, as [the version included with macOS is deprecated](https://developer.apple.com/documentation/macos-release-notes/macos-catalina-10_15-release-notes#Scripting-Language-Runtimes). This repository is tested with the version in [`.ruby-version`](./.ruby-version.md), which can be used automatically with [rbenv](https://github.com/rbenv/rbenv#installation).
+- Install the SDK dependency using CocoaPods. This can be done by running the following commands from the repository folder:
+  - `bundle install`
+  - `bundle exec pod install --repo-update`
+  - For more information about these commands, see [Bundler](https://bundler.io/) and [CocoaPods](https://guides.cocoapods.org/using/getting-started.html).
+- Open Live-to-VOD.xcworkspace.
+- To use the backend created in Step 1, open `Live to VOD UIKit/Constants.swift` and edit Line 9 with the `distributionDomainName` value from Step 1.
+- You can now build and run the projects in the simulator.
 
 ## License
+
 This project is licensed under the MIT-0 License. See the LICENSE file.
