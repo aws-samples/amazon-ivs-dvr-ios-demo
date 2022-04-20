@@ -7,7 +7,7 @@ At a high level, POC allows a viewer to seek back in time during a live stream a
 ## Setup
 
 1. Clone the repository to your local machine.
-2. Ensure you are using a supported version of Ruby, as [the version included with macOS is deprecated](https://developer.apple.com/documentation/macos-release-notes/macos-catalina-10_15-release-notes#Scripting-Language-Runtimes). This repository is tested with the version in [`.ruby-version`](./.ruby-version), which can be used automatically with [rbenv](https://github.com/rbenv/rbenv#installation).
+2. Ensure you are using a supported version of Ruby, as [the version included with macOS is deprecated](https://developer.apple.com/documentation/macos-release-notes/macos-catalina-10_15-release-notes#Scripting-Language-Runtimes). This repository is tested with the version in [`.ruby-version`](./.ruby-version.md), which can be used automatically with [rbenv](https://github.com/rbenv/rbenv#installation).
 3. Install the SDK dependency using CocoaPods. This can be done by running the following commands from the repository folder:
    * `bundle install`
    * `bundle exec pod install --repo-update`
