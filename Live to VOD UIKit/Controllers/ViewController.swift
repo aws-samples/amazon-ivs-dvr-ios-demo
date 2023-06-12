@@ -500,7 +500,10 @@ class ViewController: UIViewController {
             seekStatus = nil
             return
         }
-        let position = CMTimeMultiplyByFloat64(vodPlayer.duration, multiplier: Float64(fraction))
+        let position = CMTimeMultiplyByFloat64(
+            vodPlayer.duration,
+            multiplier: Float64(fraction == 0 ? 0.000001 : fraction)
+        )
         seek(to: position)
     }
 
