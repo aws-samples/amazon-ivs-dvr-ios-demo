@@ -26,8 +26,7 @@ Once deployment is done the CDK will output `distributionDomainName` that you'll
 - Clone this repository to your local machine.
 - Ensure you are using a supported version of Ruby, as [the version included with macOS is deprecated](https://developer.apple.com/documentation/macos-release-notes/macos-catalina-10_15-release-notes#Scripting-Language-Runtimes). This repository is tested with the version in [`.ruby-version`](./.ruby-version.md), which can be used automatically with [rbenv](https://github.com/rbenv/rbenv#installation).
 - Install the SDK dependency using CocoaPods. This can be done by running the following commands from the repository folder:
-  - `bundle install`
-  - `bundle exec pod install --repo-update`
+  - `pod install`
   - For more information about these commands, see [Bundler](https://bundler.io/) and [CocoaPods](https://guides.cocoapods.org/using/getting-started.html).
 - Open Live-to-VOD.xcworkspace.
 - To use the backend created in Step 1, open `Live to VOD UIKit/Constants.swift` and edit Line 9 with the `distributionDomainName` value from Step 1.
